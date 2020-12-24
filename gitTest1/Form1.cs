@@ -17,5 +17,10 @@ namespace gitTest1
             InitializeComponent();
             //test
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            textBox1.Text = "텍스트";
+        }
     }
 }
